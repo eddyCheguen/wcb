@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Web Call Back</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/header.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+    </head>
+    <body>        
+    <header class="headerEv">
+    <div class="headerTop">
+        <div class="container">
+            <div class="hdTopSegment maxWidth">
+                <span class="currentSegment">
+                   <div class="selectSegmentos"></div>
+                </span>
+                <div class="mainExtraMenu"></div>
+            </div>
+            <div class="hdTopLinks">
+                <div class="hdTopLocation">
+                    <a class="iconLink" href="javascript:void(0);" id="bloqueUser" style="display:none;">
+                        <i class="ico-user"></i><span id="contentNameUser"></span>
+                    </a>
+                </div>
+                <div class="hdTopOptions">
+                    <div class="hdTopOptExtra showMovil"></div>
+                    <div class="hdTopOptMore">
+                        <div class="movMoreMenu2"></div>
+                    </div>
+                    <div class="hdTopOptSelCountry">
+                        <span class="currentFlag">
+                            <span class="letter">GT</span>
+                            <span class="word">Guatemala</span>
+                        </span>
+                        <!-- <ul class="flagList">
+                            <li>
+                                <a href="https://www.claro.com.ar/personas" title="Argentina">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-argentina.jpg" width="20" height="14" alt="Claro Argentina" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-argentina.jpg">
+                                    <span>Argentina</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.br" title="Brasil">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-brasil.jpg" width="20" height="14" alt="Claro Brasil" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-brasil.jpg">
+                                    <span>Brasil</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.es/" title="España">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-spain.svg" width="20" height="14" alt="Claro España" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-spain.svg">
+                                    <span>España</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.clarochile.cl/personas/" title="Chile">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-chile.jpg" width="20" height="14" alt="Claro Chile" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-chile.jpg">
+                                    <span>Chile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.co/personas/" title="Colombia">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-colombia.jpg" width="20" height="14" alt="Claro Colombia" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-colombia.jpg">
+                                <span>Colombia</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.cr/personas/" title="Costa Rica"><img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-costa-rica.jpg" width="20" height="14" alt="Claro Costa Rica" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-costa-rica.jpg">
+                                    <span>Costa Rica</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.ec/personas/" title="Ecuador">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-ecuador.jpg" width="20" height="14" alt="Claro Ecuador" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-ecuador.jpg">
+                                    <span>Ecuador</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.sv/personas/" title="El Salvador">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-el-salvador.jpg" width="20" height="14" alt="Claro El Salvador" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-el-salvador.jpg">
+                                    <span>El Salvador</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.usclaro.com/" title="Estados Unidos / USA">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-estados-unidos.jpg" width="20" height="14" alt="Claro El Estados Unidos / USA" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-estados-unidos.jpg">
+                                    <span>Estados Unidos / USA</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.gt/personas/" title="Guatemala">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-guatemala.jpg" width="20" height="14" alt="Claro Guatemala" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-guatemala.jpg">
+                                    <span>Guatemala</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.claro.com.hn/personas/" title="Honduras">
+                                    <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-honduras.jpg" width="20" height="14" alt="Claro Honduras" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-honduras.jpg">
+                                    <span>Honduras</span>
+                                </a>
+                            </li>
+                            <li><a href="https://www.claro.com.ni/personas/" title="Nicaragua">
+                                <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-nicaragua.jpg" width="20" height="14" alt="Claro Nicaragua" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-nicaragua.jpg">
+                                <span>Nicaragua</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.claro.com.py/personas/" title="Paraguay">
+                                <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-paraguay.jpg" width="20" height="14" alt="Claro Paraguay" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-paraguay.jpg">
+                                <span>Paraguay</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.claro.com.pe/personas/" title="Perú">
+                                <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-peru.jpg" width="20" height="14" alt="Claro Perú" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-peru.jpg">
+                                <span>Perú</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.claropr.com/personas/" title="Puerto Rico">
+                                <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-puerto-rico.jpg" width="20" height="14" alt="Claro Puerto Rico" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-puerto-rico.jpg">
+                                <span>Puerto Rico</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.claro.com.do/personas/" title="República Dominicana">
+                                <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-dominicana.jpg" width="20" height="14" alt="Claro República Dominicana" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-dominicana.jpg">
+                                <span>República Dominicana</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.claro.com.uy/personas/" title="Uruguay">
+                                <img class=" lazyloaded" data-src="/portal/gt/recursos_tema_evo/assets/internal/flag-uruguay.jpg" width="20" height="14" alt="Claro Uruguay" loading="lazy" src="/portal/gt/recursos_tema_evo/assets/internal/flag-uruguay.jpg">
+                                <span>Uruguay</span>
+                            </a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="headerMain">
+    <div class="container">
+        <div class="hamburguer">
+            <span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span>
+        </div>
+        <div class="hdMainLeft">
+            <a class="logo" href="/" title="Logo Claro">
+                <img src="assets/images/logo-claro-rojo.svg" title="Logo Claro" alt="Logo Claro" width="82" height="50">
+            </a>
+            <nav>
+                <div class="closeNav">
+                    <i class="ico-x"></i>
+                </div>
+                <a class="logoMov" href="/" title="Logo Claro">
+                    <img src="assets/images/logo-claro-bco.svg" width="77" height="28" alt="Claro">
+                </a>
+                
+                <div class="mainMenuComp">
+                    <div id="mainMenuDynamic"></div>
+                </div>
+            </nav>
+    </div>
+    <ul class="hdMainRight v2">
+        <li class="iconMenuEle searchBtn">
+            <a href="#" title="Buscar">
+                <i class="ico-search" aria-label="Buscador"></i>
+            </a>
+        </li>
+
+        <div class="miclaro"></div>
+    </ul>
+</div>
+</div>
+<div class="hdSearchBox"><span class="closeSearchBox"><i class="ico-x"></i></span><div class="hdSearchBoxComp"><p class="h3">Hola, buscá aquí lo que necesitás</p><form id="buscadorHeader" class="hdSearchBoxForm" name="gs" method="GET" action="/personas/buscador/" itemprop="potentialAction" itemscope="" itemtype="https://schema.org/SearchAction" onsubmit="return (this.q.value == '') ? false:true;"><div class="inputSearchAdv"><meta itemprop="target" content="https://www.claro.com.gt/personas/buscador/{q}"><input itemprop="query-input" id="searchInput" type="text" name="q" autocomplete="off" autofocus="" placeholder="" aria-label=""><span class="clearSearch"><i class="ico-x-circle"></i></span><span class="voiceSearch"><i class="ico-mic" id="start" onclick="iniciarGrabacion()"></i></span></div><button class="btni" type="submit"><span>Buscar</span></button></form><div class="hdSearchBoxResults"><div class="hdSearchBoxResCurrent"><p class="h4">Links más buscados</p><ul><li><a href="https://www.claro.com.gt/personas/servicios/servicios-moviles/prepago/">Prepago</a></li><li><a href="https://www.claro.com.gt/personas/servicios/full-claro/">Full Claro</a></li><li><a href="https://www.claro.com.gt/personas/servicios/servicios-moviles/postpago/">Postpago</a></li><li><a href="https://www.claro.com.gt/personas/servicios/servicios-moviles/planes-y-precios/">Planes</a></li><li><a href="https://www.claro.com.gt/personas/servicios/servicios-moviles/prepago/kit-de-bienvenida/">Kit de bienvenida
+
+                        </a>
+                        </li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="container flex-center">
+             <div class="thankyou">
+                <div class="content">
+                    <h1>¡Tu solicitud ha sido enviada exitosamente!</h1>
+                    <hr>
+                    <h4>En unos momentos estaremos comunicándonos contigo.</h4>
+                    <div class="volver">
+                        <a  href="#" class="btn">Regresar al inicior</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+
+
+<footer>
+    <div class="footer v1">
+        <div class="container">
+            <div class="footerNav"></div>
+            <div class="footerRS fRSBtns">
+                <div class="footerClaroAmericaM">
+                    <a class="btnClaroAmericaM claro" href="/" target="_self" rel="noopener noreferrer"><img class=" lazyloaded" data-src="assets/images/logo-claro-bco.svg" width="80" height="40" alt="Claro" src="assets/images/logo-claro-bco.svg">
+                    </a>
+                    <a class="btnClaroAmericaM AmericaM" href="https://www.americamovil.com/" target="_blank" rel="noopener noreferrer"><img class=" lazyloaded" data-src="assets/images/logo-amx-bco.svg" width="110" height="40" alt="America Movil" src="assets/images/logo-amx-bco.svg">
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footerLower">
+        <div class="container">
+            <p>Todos los derechos reservados, Claro 2025</p>
+            <ul class="listMenu"></ul>
+        </div>
+    </div>
+</footer>
+
+    </body>
+    <script src="assets/js/menu.js"></script>
+</html>

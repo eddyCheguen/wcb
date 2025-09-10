@@ -1,0 +1,528 @@
+{
+  "Secciones": [
+    {
+      "Titulo": "Personas",
+      "URL": "https://www.claro.cr/personas/",
+      "Target": "_self"
+    },
+    {
+      "Titulo": "Empresas",
+      "URL": "https://www.claro.cr/empresas/",
+      "Target": "_self"
+    },
+    {
+      "Titulo": "Institucional",
+      "URL": "https://www.claro.cr/institucional/",
+      "Target": "_self"
+    }
+  ],
+  "LigasMasClaro": {
+    "Titulo": "Más de Claro",
+    "Hijos": [
+      {
+        "URL": "http://claromusica.com",
+        "Titulo": "",
+        "Clase": "ico-headphones lazyload",
+        "Target": "_blank"
+      },
+      {
+        "URL": "https://www.claro.cr/clarovideo/home",
+        "Titulo": "",
+        "Clase": "ico-play-circle lazyload",
+        "Target": "_blank"
+      },
+      {
+        "URL": "https://www.clarodrive.com",
+        "Titulo": "",
+        "Clase": "ico-tablet lazyload",
+        "Target": "_blank"
+      }
+    ]
+  },
+  "MiClaro": {
+    "Titulo": "Mi Claro",
+    "URL": "https://www.claro.cr/miclaro/",
+    "Target": "_blank"
+  },
+  "MenuHeader": [
+    {
+      "Imagen": "",
+      "Titulo": "Servicios",
+      "URL": "javascript:void(0);",
+      "Etiqueta": "true",
+      "Target": "_self",
+      "Hijos": [
+        {
+          "Titulo": "Servicios Móviles",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-smartphone",
+          "Hijos": [
+            {
+              "Titulo": "Postpago",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-moviles/postpago/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Prepago",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-moviles/prepago/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Roaming",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-moviles/roaming/",
+              "Target": "_self"
+            }
+          ]
+        },
+        {
+          "Titulo": "Servicios Hogar",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-home",
+          "Hijos": [
+            {
+              "Titulo": "Internet Fibra óptica",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/internet-fibra-optica/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Doble Play Fibra óptica",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/doble-play/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Triple Play Fibra óptica",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/triple-play/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Claro TV Plus",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/claro-tv-plus/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Claro Hogar Satelital",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/tv/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Ultra WiFI",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/internet-fibra-optica/ultra-wifi/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Internet Inalámbrico Residencial",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/internet/",
+              "Target": "_self"
+            }
+          ]
+        },
+        {
+          "Titulo": "Entretenimiento",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-game",
+          "Hijos": [
+            {
+              "Titulo": "Claro Música",
+              "URL": "https://www.claro.cr/personas/servicios/entretenimiento/claro-musica",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Claro Video",
+              "URL": "https://www.claro.cr/personas/servicios/entretenimiento/claro-video/",
+              "Target": "_blank"
+            },
+            {
+              "Titulo": "HBO",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/claro-tv-plus/hbo-max/",
+              "Target": "_blank"
+            },
+            {
+              "Titulo": "Universal +",
+              "URL": "https://www.claro.cr/personas/servicios/entretenimiento/claro-video/universal/",
+              "Target": "_blank"
+            }
+          ]
+        },
+        {
+          "Titulo": "Full Claro",
+          "URL": "https://www.claro.cr/personas/servicios/full-claro/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-fc-full-claro",
+          "Hijos": []
+        }
+      ]
+    },
+    {
+      "Imagen": "",
+      "Titulo": "Beneficios",
+      "URL": "javascript:void(0);",
+      "Etiqueta": "true",
+      "Target": "_self",
+      "Hijos": [
+        {
+          "Titulo": "Claro Club",
+          "URL": "https://www.claro.cr/personas/servicios/claro-club/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-grid",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Móviles",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-1-play-internet",
+          "Hijos": [
+            {
+              "Titulo": "eSIM",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-moviles/esim/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "VoLTE",
+              "URL": "https://www.claro.cr/personas/servicios/servicios-moviles/postpago/volte/",
+              "Target": "_self"
+            }
+          ]
+        },
+        {
+          "Titulo": "Promociones",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-tag",
+          "Hijos": [
+            {
+              "Titulo": "Pospago",
+              "URL": "https://www.claro.cr/personas/servicios/promociones/?filterType=2",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Prepago",
+              "URL": "https://www.claro.cr/personas/servicios/promociones/?filterType=1",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Claro Hogar",
+              "URL": "https://www.claro.cr/personas/servicios/promociones/?filterType=3",
+              "Target": "_self"
+            }
+          ]
+        },
+        {
+          "Titulo": "Acerca de Claro",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-globe",
+          "Hijos": [
+            {
+              "Titulo": "Hogares Conectados",
+              "URL": "https://www.claro.cr/personas/servicios/acercadeclaro/hogaresconectados/",
+              "Target": "_self"
+            },
+            {
+              "Titulo": "Comunidades Conectadas",
+              "URL": "https://www.claro.cr/personas/servicios/acercadeclaro/comunidadesconectadas/",
+              "Target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Imagen": "",
+      "Titulo": "Tienda",
+      "URL": "https://tiendaenlinea.claro.cr?automatic&utm_source=menuheader&utm_medium=tiendaenlinea&utm_campaign=portal",
+      "Etiqueta": "true",
+      "Target": "_blank",
+      "Hijos": [
+        {
+          "Titulo": "Celulares",
+          "URL": "https://tiendaenlinea.claro.cr/categories/prepago/celularesprepago?automatic&utm_source=menuheader&utm_medium=tiendaenlineacelulares&utm_campaign=portal",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-smartphone",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Servicios Hogar",
+          "URL": "",
+          "Etiqueta": "true",
+          "Target": "_self",
+          "Clase": "ico-home",
+          "Hijos": [
+            {
+              "Titulo": "Equipos Claro Hogar",
+              "URL": "https://tiendaenlinea.claro.cr/categories/otros/equiposclarohogar?utm_source=menuheader&utm_medium=equiposhogar&utm_campaign=portal/",
+              "Target": "_blank"
+            },
+            {
+              "Titulo": "Planes Claro Hogar",
+              "URL": "https://tiendaenlinea.claro.cr/categories/planesserviciosfijos/planesclarohogar?utm_source=menuheader&utm_medium=planeshogar&utm_campaign=portal/",
+              "Target": "_blank"
+            }
+          ]
+        },
+        {
+          "Titulo": "Accesorios",
+          "URL": "https://tiendaenlinea.claro.cr/categories/otros/accesorios?automatic&utm_source=menuheader&utm_medium=tiendaenlineaaccesorios&utm_campaign=portal",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-gift",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Renovación",
+          "URL": "https://tiendaenlinea.claro.cr/renewals?utm_source=menuheader&utm_medium=renovar&utm_campaign=portal",
+          "Etiqueta": "false",
+          "Target": "_self",
+          "Clase": "ico-refresh-cw",
+          "Hijos": []
+        }
+      ]
+    },
+    {
+      "Imagen": "",
+      "Titulo": "Asistencia",
+      "URL": "javascript:void(0);",
+      "Etiqueta": "true",
+      "Target": "_self",
+      "Hijos": [
+        {
+          "Titulo": "Claro Hogar",
+          "URL": "https://www.claro.cr/asistencia/servicios-hogar/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-home",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Claro Móvil",
+          "URL": "https://www.claro.cr/asistencia/servicios-moviles/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-smartphone",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Contenido Online",
+          "URL": "https://www.claro.com.hn/asistencia/entretenimiento/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-play-circle",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Mi Claro",
+          "URL": "https://www.claro.cr/asistencia/mi-claro/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-user",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Tienda en Linea",
+          "URL": "https://www.claro.cr/asistencia/tienda-en-linea/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-shopping-bag",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Empresas",
+          "URL": "https://www.claro.cr/asistencia/empresas/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-briefcase",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Regulatorio",
+          "URL": "https://www.claro.cr/asistencia/regulatorio/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-book",
+          "Hijos": []
+        },
+        {
+          "Titulo": "Soporte",
+          "URL": "https://www.claro.cr/asistencia/soporte/",
+          "Etiqueta": "false",
+          "Target": "_blank",
+          "Clase": "ico-settings",
+          "Hijos": []
+        }
+      ]
+    }
+  ],
+  "MenuFooter": [
+    {
+      "Titulo": "Servicios",
+      "Hijos": [
+        {
+          "Titulo": "Servicios Móviles",
+          "URL": "https://www.claro.cr/personas/servicios/servicios-moviles/prepago/",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Servicios Hogar",
+          "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/tv/",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Fibra Óptica",
+          "URL": "https://www.claro.cr/personas/servicios/servicios-hogar/internet-fibra-optica/",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Claro Club",
+          "URL": "https://www.claro.cr/personas/servicios/claro-club/",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Entretenimiento",
+          "URL": "https://www.claro.cr/personas/servicios/entretenimiento/claro-musica/",
+          "Target": "_self"
+        }
+      ]
+    },
+    {
+      "Titulo": "Tienda",
+      "Hijos": [
+        {
+          "Titulo": "Celulares",
+          "URL": "https://tiendaenlinea.claro.cr/categories/prepago/celularesprepago?automatic&utm_source=menuheader&utm_medium=tiendaenlineacelulares&utm_campaign=portal",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Equipos Claro Hogar",
+          "URL": "https://tiendaenlinea.claro.cr/categories/otros/equiposclarohogar?utm_source=menufooter&utm_medium=equiposhogar&utm_campaign=portal/",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Planes Claro Hogar",
+          "URL": "https://tiendaenlinea.claro.cr/categories/planesserviciosfijos/planesclarohogar?utm_source=menufooter&utm_medium=planeshogar&utm_campaign=portal/",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Accesorios",
+          "URL": "https://tiendaenlinea.claro.cr/categories/otros/accesorios?automatic&utm_source=menuheader&utm_medium=tiendaenlineaaccesorios&utm_campaign=portal",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Renovación",
+          "URL": "https://tiendaenlinea.claro.cr/renewals?utm_source=menufooter&utm_medium=renovar&utm_campaign=portal",
+          "Target": "_self"
+        },
+        {
+          "Titulo": "Términos y Condiciones",
+          "URL": "https://tiendaenlinea.claro.cr/terms/",
+          "Target": "_blank"
+        }
+      ]
+    },
+    {
+      "Titulo": "Asistencia",
+      "Hijos": [
+        {
+          "Titulo": "Asistencia",
+          "URL": "https://www.claro.cr/asistencia/regulatorio/",
+          "Target": "_blank"
+        },
+        {
+          "Titulo": "Servicio al cliente",
+          "URL": "https://www.claro.cr/asistencia/soporte/",
+          "Target": "_self"
+        }
+      ]
+    },
+    {
+      "Titulo": "Mi Claro",
+      "Hijos": [
+        {
+          "Titulo": "Inicio de sesión",
+          "URL": "https://miclaro.cr/logincr/",
+          "Target": "_blank"
+        },
+        {
+          "Titulo": "Factura electrónica",
+          "URL": "https://www.claro.cr/personas/app/factura-electronica/",
+          "Target": "_blank"
+        }
+      ]
+    },
+    {
+      "Titulo": "Institucional",
+      "Hijos": [
+        {
+          "Titulo": "Newsroom",
+          "URL": "https://www.claro.cr/institucional/",
+          "Target": "_self"
+        }
+      ]
+    }
+  ],
+  "RedesSociales": [
+    {
+      "URL": "https://www.facebook.com/clarocostarica?fref=ts",
+      "Clase": "ico-facebook-s",
+      "Target": "_blank"
+    },
+    {
+      "URL": "https://twitter.com/claro_costarica",
+      "Clase": "ico-x-s",
+      "Target": "_blank"
+    },
+    {
+      "URL": "https://www.instagram.com/clarocostarica",
+      "Clase": "ico-instagram-s",
+      "Target": "_blank"
+    },
+    {
+      "URL": "https://www.youtube.com/@ClaroCostaRica1",
+      "Clase": "ico-youtube-s",
+      "Target": "_blank"
+    },
+    {
+      "URL": "https://api.whatsapp.com/send?phone=50670027002",
+      "Clase": "ico-whatsapp-s",
+      "Target": "_blank"
+    }
+  ],
+  "Copyright": "Todos los derechos reservados, Claro 2025",
+  "LigasFooterLegales": [
+    {
+      "Titulo": "Mapa de sitio",
+      "URL": "https://www.claro.cr/mapa-de-sitio/",
+      "Modal": "false",
+      "Target": "_self"
+    },
+    {
+      "Titulo": "Portal de denuncias",
+      "URL": "https://denuncias.americamovil.com",
+      "Modal": "false",
+      "Target": "_blank"
+    },
+    {
+      "Titulo": "Privacidad",
+      "URL": "https://www.claro.cr/personas/legal-y-regulatorio/politica-de-privacidad",
+      "Modal": "false",
+      "Target": "_self"
+    },
+    {
+      "Titulo": "Legal y regulatorio",
+      "URL": "https://www.claro.cr/personas/legal-y-regulatorio/",
+      "Modal": "false",
+      "Target": "_self"
+    }
+  ]
+}

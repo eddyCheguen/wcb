@@ -1,0 +1,254 @@
+.footer {
+    background: #2D2D2D;
+    background: linear-gradient(275deg, #222222 0%, #2d2d2d 100%);
+}
+.footer .footerCat .footerCatHeader {
+    color: #FFF;
+    font-weight: 700;
+    padding: 20px 40px 20px 20px;
+    position: relative;
+    font-size: 16px;
+    font-size: 1rem;
+}
+
+.footer .footerCat .footerCatBody {
+    transition: all .5s ease;
+    max-height: 0;
+    overflow: hidden;
+}
+.footer .footerCat .footerCatBody>ul li {
+    font-size: 14px;
+    font-size: .875rem;
+    padding: 12px 20px;
+}
+.footer .footerCat .footerCatBody>ul li a {
+    color: #DBDBDB;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    padding: 6px 0;
+}
+.textLink {
+    font-weight: 500;
+    position: relative;
+    color: #0097A9;
+    display: inline-block;
+    text-decoration: underline;
+}
+.footer .footerClaroAmericaM {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    padding: 12px 20px 16px;
+}
+.footer .btnClaroAmericaM {
+    position: relative;
+}
+.footer .btnClaroAmericaM+.btnClaroAmericaM::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -16px;
+    width: 1px;
+    height: 100%;
+    border-left: 1px solid #fff;
+}
+.footer .footerRS>dl dd {
+    margin: 0;
+    line-height: 0;
+}
+.footer .footerRS>dl dt {
+    width: calc(100% + 10px);
+    margin: 0 12px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    font-size: 16px;
+    font-size: 1rem;
+    text-align: center;
+}
+.footer .footerRS .icoRs {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-size: 0;
+    overflow: hidden;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: rgba(255,255,255,0.3) 1px solid;
+    background: linear-gradient(180deg, rgba(255,255,255,0.32) 0%,rgba(152,152,152,0.32) 100%);
+    position: relative;
+}
+.footer .footerRS>dl {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px 20px;
+    width: 100%;
+    padding: 16px 20px 32px;
+}
+.footer .footerRS .icoRs i {
+    font-size: 20px;
+    font-size: 1.25rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+}
+.footerLower {
+    background-color: #525252;
+    color: #DBDBDB;
+    padding: 20px 0;
+}
+.footerLower p {
+    text-align: center;
+    font-size: 14px;
+    font-size: .875rem;
+    margin-bottom: 8px;
+}
+.footerLower .listMenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footerLower .listMenu li {
+    position: relative;
+    margin: 0 6px;
+    font-size: 14px;
+    font-size: .875rem;
+}
+.footerLower .listMenu a {
+    padding: 6px;
+    color: #B9B9B9;
+    font-weight: 500;
+    text-decoration: none;
+}
+.textLink {
+    font-weight: 500;
+    position: relative;
+    color: #0097A9;
+    display: inline-block;
+    text-decoration: underline;
+}
+@media only screen and (min-width: 640px) {
+    .footer {
+        background: #1f1d1d;
+        background: linear-gradient(275deg, #222222 0%, #2d2d2d 100%);
+    }
+    .footer .container {
+    padding: 0 20px;
+    }
+    .footer .footerNav {
+        padding: 40px 0 0;
+        position: relative;
+        width: calc(100% + 20px);
+        margin-left: -10px;
+        margin-right: -10px;
+        display: flex;
+        flex-wrap: wrap;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .footer .footerCat .footerCatHeader {
+        padding: 12px 0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .footer .footerCat .footerCatBody {
+        max-height: initial;
+    }
+    .footer .footerCat .footerCatBody>ul li {
+        padding: 16px 0 0;
+    }
+    .footer .footerCat .footerCatBody>ul li a {
+        display: inline-block;
+        padding: 0 0 6px;
+    }
+    .footer .fRSBtns {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        gap: 20px 0;
+    }
+    .footer .footerRS {
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    .footer .footerCat {
+        width: calc(33.3333% - 24px);
+        border-bottom: none;
+        margin: 0 12px 12px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .footer .footerClaroAmericaM {
+        padding: 0;
+        margin-right: 60px;
+        justify-content: left;
+    }
+    .footer .footerRS>dl {
+        justify-content: normal;
+    }
+    .footer .fRSBtns>dl {
+        width: auto !important;
+    }
+    .footer .footerRS>dl {
+        width: 100%;
+        padding: 0;
+    }
+    .footer .footerRS>dl dt {
+        text-align: left;
+    }
+    .footer .footerRS>dl dt {
+        display: none;
+    }
+   .footerLower p {
+        text-align: left;
+        white-space: nowrap;
+        margin-bottom: 0;
+        min-width: 310px;
+    }
+    .footerLower .listMenu {
+        justify-content: flex-end;
+    }
+    .footerLower .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media only screen and (min-width: 1102px) {
+    .footer .footerCat:first-child {
+        padding-bottom: 50px;
+    }
+    .footer .footerCat {
+        width: calc(16.6666% - 24px);
+    }
+    .footer .footerCat:first-child {
+        padding-bottom: 50px;
+    }
+    .footerLower .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+
