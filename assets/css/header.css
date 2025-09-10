@@ -1341,6 +1341,7 @@ ol, ul {
         padding-left: calc(((100vw - 1440px) / 2) + 20px);
     }
 }
+
 @media (max-width: 959px) {
     .headerEv .hdTopSegment .currentSegment:after {
         -moz-box-sizing: border-box;
