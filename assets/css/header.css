@@ -64,7 +64,7 @@ a {
     color: rgba(255,255,255,0.8);
     display: block;
     width: 100%;
-    padding: 12px 20px;
+    padding: 11px 20px;
 }
 .headerEv .hdMainLeft nav .mainExtraMenu>li a:hover, .headerEv .hdMainLeft nav .mainExtraMenu>li a.active {
     color: #fff;
@@ -1340,6 +1340,9 @@ ol, ul {
     .headerEv .hdMainLeft nav .mainMenu>li .subMenuWrapLimit {
         padding-left: calc(((100vw - 1440px) / 2) + 20px);
     }
+    .container {
+        max-width: 1440px;
+    }
 }
 
 @media (max-width: 959px) {
@@ -1377,6 +1380,61 @@ ol, ul {
     }
     .loginBtn span{
         display: none
+    }
+    .headerEv .hdMainLeft nav:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 68px;
+        width: 100%;
+        height: 1px;
+        display: block;
+        background-color: #83170F;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .headerEv .hdMainLeft nav .mainMenu {
+        transition: all .5s ease;
+        position: relative;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+    .headerEv .hdMainLeft nav .mainMenu .openSubM:after, .headerEv .hdMainLeft nav .mainMenu .openSubMFake:after {
+        content: "\e930";
+        font-family: "claroicons";
+        font-size: 24px;
+        font-size: 1.5rem;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        pointer-events: none;
+    }
+    .headerEv .hdMainLeft nav .mainMenu>li a{
+        font-family: 'AMx Bold', sans-serif;
+    }
+    .subMenuWrap{
+        position: absolute;
+        display: none
+    }
+    .headerEv .hdMainLeft nav .movMoreMenu .moreList {
+        display: flex;
+        padding: 16px 0;
+        padding-left: 20px;
+        overflow: auto;
+        gap:25px
+    }
+    .headerEv .hdMainLeft nav .movMoreMenu .moreList li a img {
+        min-height: 20px;
+        max-height: 20px;
+        filter: brightness(0) invert(1);
+        opacity: .7;
+    }
+    .headerEv .hdMainLeft nav .mainExtraMenu>li a:hover, .headerEv .hdMainLeft nav .mainExtraMenu>li:first-child  a{
+        color: #fff;
+        text-decoration: underline;
     }
 }
 @media (max-width:600px) {

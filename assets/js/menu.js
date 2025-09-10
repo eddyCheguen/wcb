@@ -62,7 +62,15 @@ function buildSeccionesHtml(secciones) {
     html += '</ul>';
     return html;
 }
-
+function buildSeccions(secciones) {
+    if (!secciones || !secciones.length) return '';
+    let html = '<ul class="mainExtraMenu">';
+    secciones.forEach(sec => {
+        html += `<li><a href="${sec.URL || '#'}" title="${sec.Titulo}">${sec.Titulo}</a></li>`;
+    });
+    html += '</ul>';
+    return html;
+}
 function buildSeccion(secciones) {
     if (!secciones || !secciones.length) return '';
     let html = '<select onchange="location=this.value">';
@@ -92,8 +100,8 @@ function buildLigasMasClaroHtml(ligas) {
     let html = '<span>Más de Claro</span><ul class="moreList">';
     ligas.Hijos.forEach(item => {
         html += `<li><a href="${item.URL}" target="${item.Target || ''}">`;
-        if (item.Clase && item.Clase.indexOf('ico-') === 0) html += `<i class="${item.Clase}"></i>`;
-        else if (item.Imagen) html += `<img src="${item.Imagen}" alt="${item.Titulo}">`;
+        if (item.Imagen) html += `<img src="${item.Imagen}" alt="${item.Titulo}">`;
+        else if (item.Clase && item.Clase.indexOf('ico-') === 0) html += `<i class="${item.Clase}"></i>`;
         else html += `${item.Titulo}`;
         html += `</a></li>`;
     });
@@ -108,6 +116,9 @@ function applyMenuToDom(data) {
 
         const seccionesEl = document.querySelector('.mainExtraMenu');
         if (seccionesEl && data.Secciones) seccionesEl.outerHTML = buildSeccionesHtml(data.Secciones);
+
+        const seccionesE = document.querySelector('.mainExtraMenu2');
+        if (seccionesE && data.Secciones) seccionesE.outerHTML = buildSeccions(data.Secciones);
 
         const seccionesmov = document.querySelector('.selectSegmentos');
         if (seccionesmov && data.Secciones) seccionesmov.innerHTML = buildSeccion(data.Secciones);

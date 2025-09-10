@@ -23,19 +23,22 @@
         "URL": "http://www.claromusica.com/",
         "Titulo": "",
         "Clase": "ico-headphones lazyload",
-        "Target": "_blank"
+        "Target": "_blank",
+        "Imagen": "../assets/images/logo-claro-musica.svg"
       },
       {
         "URL": "https://www.claro.com.gt/clarovideo/home",
         "Titulo": "",
         "Clase": "ico-play-circle lazyload",
-        "Target": "_blank"
+        "Target": "_blank",
+        "Imagen": "../assets/images/logo-claro-video.svg"
       },
       {
         "URL": "https://www.clarodrive.com/",
         "Titulo": "",
         "Clase": "ico-tablet lazyload",
-        "Target": "_blank"
+        "Target": "_blank",
+        "Imagen": "../assets/images/logo-claro-drive.svg"
       }
     ]
   },
